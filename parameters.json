@@ -23,6 +23,10 @@
         "linuxFxVersion": {
             "value": "DOCKER|manuelacr.azurecr.io/flask-demo:latest"
         },
+        "keyVaultName": {
+            "value": "manuelakv"
+        },
+        
         "appSettings": {
             "value": {
                 "WEBSITES_ENABLE_APP_SERVICE_STORAGE": "false",
