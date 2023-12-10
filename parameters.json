@@ -5,7 +5,7 @@
         "acrName": {
             "value": "manuelacr"
         },
-        "acrLocation": {
+        "location": {
             "value": "eastus"
         },
         "appServicePlanName": {
@@ -26,7 +26,7 @@
         "keyVaultName": {
             "value": "manuelakv"
         },
-        
+
         "appSettings": {
             "value": {
                 "WEBSITES_ENABLE_APP_SERVICE_STORAGE": "false",
