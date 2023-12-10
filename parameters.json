@@ -1,0 +1,35 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "acrName": {
+            "value": "manuelacr"
+        },
+        "acrLocation": {
+            "value": "eastus"
+        },
+        "appServicePlanName": {
+            "value": "manuelaasp"
+        },
+        "appServicePlanLocation": {
+            "value": "eastus"
+        },
+        "webAppName": {
+            "value": "manuelawebapp"
+        },
+        "webAppLocation": {
+            "value": "eastus"
+        },
+        "linuxFxVersion": {
+            "value": "DOCKER|manuelacr.azurecr.io/flask-demo:latest"
+        },
+        "appSettings": {
+            "value": {
+                "WEBSITES_ENABLE_APP_SERVICE_STORAGE": "false",
+                "DOCKER_REGISTRY_SERVER_URL": "https://manuelacr.azurecr.io",
+                "DOCKER_REGISTRY_SERVER_USERNAME": "manuelacr", 
+                "DOCKER_REGISTRY_SERVER_PASSWORD": "CZd41NfLtvJ3/fMx/LWy7u9huOBbSAupHnVRjAY/D2+ACRBLy+VG" 
+            }
+        }
+    }
+}
