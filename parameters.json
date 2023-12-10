@@ -17,23 +17,8 @@
         "webAppName": {
             "value": "manuelawebapp"
         },
-        "webAppLocation": {
-            "value": "eastus"
-        },
-        "linuxFxVersion": {
-            "value": "DOCKER|manuelacr.azurecr.io/flask-demo:latest"
-        },
         "keyVaultName": {
             "value": "manuelakv"
-        },
-
-        "appSettings": {
-            "value": {
-                "WEBSITES_ENABLE_APP_SERVICE_STORAGE": "false",
-                "DOCKER_REGISTRY_SERVER_URL": "https://manuelacr.azurecr.io",
-                "DOCKER_REGISTRY_SERVER_USERNAME": "manuelacr", 
-                "DOCKER_REGISTRY_SERVER_PASSWORD": "CZd41NfLtvJ3/fMx/LWy7u9huOBbSAupHnVRjAY/D2+ACRBLy+VG" 
-            }
         }
     }
 }
